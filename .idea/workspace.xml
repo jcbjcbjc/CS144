@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="Sponge" targetName="byte_stream_one_write" />
+      <config projectName="Sponge" targetName="tidy_doctests__socket_example_3.cc" />
+      <config projectName="Sponge" targetName="address_dt" />
+      <config projectName="Sponge" targetName="byte_stream_many_writes" />
+      <config projectName="Sponge" targetName="tidy_quiet_doctests__address_example_1.cc" />
+      <config projectName="Sponge" targetName="tidy_tests__byte_stream_one_write.cc" />
+      <config projectName="Sponge" targetName="tidy_quiet_doctests__socket_example_3.cc" />
+      <config projectName="Sponge" targetName="tidy_doctests__parser_dt.cc" />
+      <config projectName="Sponge" targetName="tidy_quiet_util__tun.cc" />
+      <config projectName="Sponge" targetName="tidy_quiet_tests__byte_stream_two_writes.cc" />
+      <config projectName="Sponge" targetName="tidy_tests__byte_stream_construction.cc" />
+      <config projectName="Sponge" targetName="tidy_quiet_apps__webget.cc" />
+      <config projectName="Sponge" targetName="tidy_util__buffer.cc" />
+      <config projectName="Sponge" targetName="byte_stream_two_writes" />
+      <config projectName="Sponge" targetName="sponge" />
+      <config projectName="Sponge" targetName="tidy_doctests__address_example_2.cc" />
+      <config projectName="Sponge" targetName="byte_stream_construction" />
+      <config projectName="Sponge" targetName="tidy_quiet_tests__byte_stream_one_write.cc" />
+      <config projectName="Sponge" targetName="tidy_quiet_util__parser.cc" />
+      <config projectName="Sponge" targetName="tidy_doctests__socket_dt.cc" />
+      <config projectName="Sponge" targetName="tidy_util__util.cc" />
+      <config projectName="Sponge" targetName="tidy_quiet_doctests__address_example_2.cc" />
+      <config projectName="Sponge" targetName="tidy_util__file_descriptor.cc" />
+      <config projectName="Sponge" targetName="check_webget" />
+      <config projectName="Sponge" targetName="tidy_quiet_doctests__socket_example_2.cc" />
+      <config projectName="Sponge" targetName="tidy_quiet_tests__byte_stream_capacity.cc" />
+      <config projectName="Sponge" targetName="parser_dt" />
+      <config projectName="Sponge" targetName="webget" />
+      <config projectName="Sponge" targetName="tidy_util__parser.cc" />
+      <config projectName="Sponge" targetName="tidy_quiet_util__address.cc" />
+      <config projectName="Sponge" targetName="tidy_tests__byte_stream_two_writes.cc" />
+      <config projectName="Sponge" targetName="tidy_quiet_tests__byte_stream_many_writes.cc" />
+      <config projectName="Sponge" targetName="tidy_util__tun.cc" />
+      <config projectName="Sponge" targetName="tidy_quiet_tests__byte_stream_construction.cc" />
+      <config projectName="Sponge" targetName="tidy_verbose" />
+      <config projectName="Sponge" targetName="byte_stream_capacity" />
+      <config projectName="Sponge" targetName="tidy_doctests__socket_example_1.cc" />
+      <config projectName="Sponge" targetName="tidy_quiet_doctests__socket_example_1.cc" />
+      <config projectName="Sponge" targetName="tidy_quiet_doctests__address_example_3.cc" />
+      <config projectName="Sponge" targetName="tidy_tests__byte_stream_many_writes.cc" />
+      <config projectName="Sponge" targetName="check_lab3" />
+      <config projectName="Sponge" targetName="check_lab2" />
+      <config projectName="Sponge" targetName="tidy_quiet_libsponge__byte_stream.cc" />
+      <config projectName="Sponge" targetName="check_lab1" />
+      <config projectName="Sponge" targetName="tidy_util__address.cc" />
+      <config projectName="Sponge" targetName="check_lab0" />
+      <config projectName="Sponge" targetName="tidy_quiet_util__file_descriptor.cc" />
+      <config projectName="Sponge" targetName="check_lab6" />
+      <config projectName="Sponge" targetName="tidy_doctests__address_example_3.cc" />
+      <config projectName="Sponge" targetName="check_lab5" />
+      <config projectName="Sponge" targetName="format" />
+      <config projectName="Sponge" targetName="check_lab4" />
+      <config projectName="Sponge" targetName="tidy_doctests__parser_example.cc" />
+      <config projectName="Sponge" targetName="tidy_quiet_doctests__parser_dt.cc" />
+      <config projectName="Sponge" targetName="tidy_quiet_util__eventloop.cc" />
+      <config projectName="Sponge" targetName="tidy_util__eventloop.cc" />
+      <config projectName="Sponge" targetName="tidy_quiet_doctests__parser_example.cc" />
+      <config projectName="Sponge" targetName="tidy" />
+      <config projectName="Sponge" targetName="tidy_doctests__socket_example_2.cc" />
+      <config projectName="Sponge" targetName="tidy_apps__webget.cc" />
+      <config projectName="Sponge" targetName="tidy_quiet_doctests__address_dt.cc" />
+      <config projectName="Sponge" targetName="tidy_tests__byte_stream_capacity.cc" />
+      <config projectName="Sponge" targetName="tidy_util__socket.cc" />
+      <config projectName="Sponge" targetName="tidy_doctests__address_example_1.cc" />
+      <config projectName="Sponge" targetName="tidy_quiet_doctests__socket_dt.cc" />
+      <config projectName="Sponge" targetName="tidy_quiet_util__socket.cc" />
+      <config projectName="Sponge" targetName="tidy_tests__byte_stream_test_harness.cc" />
+      <config projectName="Sponge" targetName="check" />
+      <config projectName="Sponge" targetName="tidy_quiet_tests__byte_stream_test_harness.cc" />
+      <config projectName="Sponge" targetName="socket_dt" />
+      <config projectName="Sponge" targetName="tidy_quiet_util__buffer.cc" />
+      <config projectName="Sponge" targetName="spongechecks" />
+      <config projectName="Sponge" targetName="tidy_doctests__address_dt.cc" />
+      <config projectName="Sponge" targetName="tidy_libsponge__byte_stream.cc" />
+      <config projectName="Sponge" targetName="tidy_quiet_util__util.cc" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b2572311-e492-46a6-a3d4-84e37aa4aada" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/CS144.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/webget.cc" beforeDir="false" afterPath="$PROJECT_DIR$/apps/webget.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libsponge/byte_stream.cc" beforeDir="false" afterPath="$PROJECT_DIR$/libsponge/byte_stream.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libsponge/byte_stream.hh" beforeDir="false" afterPath="$PROJECT_DIR$/libsponge/byte_stream.hh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libsponge/util/address.cc" beforeDir="false" afterPath="$PROJECT_DIR$/libsponge/util/address.cc" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2022" />
+    <option name="minorVersion" value="1.3" />
+  </component>
+  <component name="ProjectId" id="2Fm99FskkkFAclcX8ZpSGnHW32A" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.advertisement.text.overridden": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "ctest.advertisement.all.test.configuration.is.created": "true",
+    "last_opened_file_path": "/home/jcbjcbjc/Documents/Moba-Unique-Server/Src/Gateway",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
+  <component name="RunManager" selected="CMake Application.check_lab0">
+    <configuration name="address_dt" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="address_dt" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Sponge" RUN_TARGET_NAME="address_dt">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="byte_stream_capacity" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="byte_stream_capacity" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Sponge" RUN_TARGET_NAME="byte_stream_capacity">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="byte_stream_construction" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="byte_stream_construction" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Sponge" RUN_TARGET_NAME="byte_stream_construction">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="byte_stream_many_writes" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="byte_stream_many_writes" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Sponge" RUN_TARGET_NAME="byte_stream_many_writes">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="byte_stream_one_write" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="byte_stream_one_write" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Sponge" RUN_TARGET_NAME="byte_stream_one_write">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="byte_stream_two_writes" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="byte_stream_two_writes" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Sponge" RUN_TARGET_NAME="byte_stream_two_writes">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="check" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="check" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="check_lab0" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="check_lab0" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="check_lab1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="check_lab1" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="check_lab2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="check_lab2" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="check_lab3" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="check_lab3" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="check_lab4" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="check_lab4" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="check_lab5" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="check_lab5" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="check_lab6" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="check_lab6" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="check_webget" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="check_webget" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="format" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="format" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="parser_dt" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="parser_dt" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Sponge" RUN_TARGET_NAME="parser_dt">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="socket_dt" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="socket_dt" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Sponge" RUN_TARGET_NAME="socket_dt">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sponge" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="sponge" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="spongechecks" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="spongechecks" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidy" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidy_apps__webget.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_apps__webget.cc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidy_doctests__address_dt.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_doctests__address_dt.cc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidy_doctests__address_example_1.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_doctests__address_example_1.cc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidy_doctests__address_example_2.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_doctests__address_example_2.cc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidy_doctests__address_example_3.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_doctests__address_example_3.cc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidy_doctests__parser_dt.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_doctests__parser_dt.cc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidy_doctests__parser_example.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_doctests__parser_example.cc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidy_doctests__socket_dt.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_doctests__socket_dt.cc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidy_doctests__socket_example_1.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_doctests__socket_example_1.cc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidy_doctests__socket_example_2.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_doctests__socket_example_2.cc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidy_doctests__socket_example_3.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_doctests__socket_example_3.cc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidy_libsponge__byte_stream.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_libsponge__byte_stream.cc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidy_quiet_apps__webget.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_quiet_apps__webget.cc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidy_quiet_doctests__address_dt.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_quiet_doctests__address_dt.cc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidy_quiet_doctests__address_example_1.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_quiet_doctests__address_example_1.cc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidy_quiet_doctests__address_example_2.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_quiet_doctests__address_example_2.cc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidy_quiet_doctests__address_example_3.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_quiet_doctests__address_example_3.cc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidy_quiet_doctests__parser_dt.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_quiet_doctests__parser_dt.cc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidy_quiet_doctests__parser_example.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_quiet_doctests__parser_example.cc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidy_quiet_doctests__socket_dt.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_quiet_doctests__socket_dt.cc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidy_quiet_doctests__socket_example_1.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_quiet_doctests__socket_example_1.cc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidy_quiet_doctests__socket_example_2.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_quiet_doctests__socket_example_2.cc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidy_quiet_doctests__socket_example_3.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_quiet_doctests__socket_example_3.cc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidy_quiet_libsponge__byte_stream.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_quiet_libsponge__byte_stream.cc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidy_quiet_tests__byte_stream_capacity.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_quiet_tests__byte_stream_capacity.cc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidy_quiet_tests__byte_stream_construction.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_quiet_tests__byte_stream_construction.cc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidy_quiet_tests__byte_stream_many_writes.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_quiet_tests__byte_stream_many_writes.cc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidy_quiet_tests__byte_stream_one_write.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_quiet_tests__byte_stream_one_write.cc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidy_quiet_tests__byte_stream_test_harness.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_quiet_tests__byte_stream_test_harness.cc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidy_quiet_tests__byte_stream_two_writes.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_quiet_tests__byte_stream_two_writes.cc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidy_quiet_util__address.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_quiet_util__address.cc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidy_quiet_util__buffer.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_quiet_util__buffer.cc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidy_quiet_util__eventloop.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_quiet_util__eventloop.cc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidy_quiet_util__file_descriptor.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_quiet_util__file_descriptor.cc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidy_quiet_util__parser.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_quiet_util__parser.cc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidy_quiet_util__socket.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_quiet_util__socket.cc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidy_quiet_util__tun.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_quiet_util__tun.cc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidy_quiet_util__util.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_quiet_util__util.cc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidy_tests__byte_stream_capacity.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_tests__byte_stream_capacity.cc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidy_tests__byte_stream_construction.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_tests__byte_stream_construction.cc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidy_tests__byte_stream_many_writes.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_tests__byte_stream_many_writes.cc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidy_tests__byte_stream_one_write.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_tests__byte_stream_one_write.cc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidy_tests__byte_stream_test_harness.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_tests__byte_stream_test_harness.cc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidy_tests__byte_stream_two_writes.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_tests__byte_stream_two_writes.cc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidy_util__address.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_util__address.cc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidy_util__buffer.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_util__buffer.cc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidy_util__eventloop.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_util__eventloop.cc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidy_util__file_descriptor.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_util__file_descriptor.cc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidy_util__parser.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_util__parser.cc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidy_util__socket.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_util__socket.cc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidy_util__tun.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_util__tun.cc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidy_util__util.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_util__util.cc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidy_verbose" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_verbose" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="webget" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="webget" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Sponge" RUN_TARGET_NAME="webget">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All CTest" type="CTestRunConfiguration" factoryName="CTestRun" PROGRAM_PARAMS="--extra-verbose" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$CMakeCurrentLocalGenerationDir$" PASS_PARENT_ENVS_2="true" RUN_PATH="$CTestCurrentExecutableName$" EXPLICIT_BUILD_TARGET_NAME="all" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.check" />
+      <item itemvalue="CMake Application.check_lab0" />
+      <item itemvalue="CMake Application.check_lab1" />
+      <item itemvalue="CMake Application.check_lab2" />
+      <item itemvalue="CMake Application.check_lab3" />
+      <item itemvalue="CMake Application.check_lab4" />
+      <item itemvalue="CMake Application.check_lab5" />
+      <item itemvalue="CMake Application.check_lab6" />
+      <item itemvalue="CMake Application.check_webget" />
+      <item itemvalue="CMake Application.format" />
+      <item itemvalue="CMake Application.tidy" />
+      <item itemvalue="CMake Application.tidy_apps__webget.cc" />
+      <item itemvalue="CMake Application.tidy_doctests__address_dt.cc" />
+      <item itemvalue="CMake Application.tidy_doctests__address_example_1.cc" />
+      <item itemvalue="CMake Application.tidy_doctests__address_example_2.cc" />
+      <item itemvalue="CMake Application.tidy_doctests__address_example_3.cc" />
+      <item itemvalue="CMake Application.tidy_doctests__parser_dt.cc" />
+      <item itemvalue="CMake Application.tidy_doctests__parser_example.cc" />
+      <item itemvalue="CMake Application.tidy_doctests__socket_dt.cc" />
+      <item itemvalue="CMake Application.tidy_doctests__socket_example_1.cc" />
+      <item itemvalue="CMake Application.tidy_doctests__socket_example_2.cc" />
+      <item itemvalue="CMake Application.tidy_doctests__socket_example_3.cc" />
+      <item itemvalue="CMake Application.tidy_libsponge__byte_stream.cc" />
+      <item itemvalue="CMake Application.tidy_quiet_apps__webget.cc" />
+      <item itemvalue="CMake Application.tidy_quiet_doctests__address_dt.cc" />
+      <item itemvalue="CMake Application.tidy_quiet_doctests__address_example_1.cc" />
+      <item itemvalue="CMake Application.tidy_quiet_doctests__address_example_2.cc" />
+      <item itemvalue="CMake Application.tidy_quiet_doctests__address_example_3.cc" />
+      <item itemvalue="CMake Application.tidy_quiet_doctests__parser_dt.cc" />
+      <item itemvalue="CMake Application.tidy_quiet_doctests__parser_example.cc" />
+      <item itemvalue="CMake Application.tidy_quiet_doctests__socket_dt.cc" />
+      <item itemvalue="CMake Application.tidy_quiet_doctests__socket_example_1.cc" />
+      <item itemvalue="CMake Application.tidy_quiet_doctests__socket_example_2.cc" />
+      <item itemvalue="CMake Application.tidy_quiet_doctests__socket_example_3.cc" />
+      <item itemvalue="CMake Application.tidy_quiet_libsponge__byte_stream.cc" />
+      <item itemvalue="CMake Application.tidy_quiet_tests__byte_stream_capacity.cc" />
+      <item itemvalue="CMake Application.tidy_quiet_tests__byte_stream_construction.cc" />
+      <item itemvalue="CMake Application.tidy_quiet_tests__byte_stream_many_writes.cc" />
+      <item itemvalue="CMake Application.tidy_quiet_tests__byte_stream_one_write.cc" />
+      <item itemvalue="CMake Application.tidy_quiet_tests__byte_stream_test_harness.cc" />
+      <item itemvalue="CMake Application.tidy_quiet_tests__byte_stream_two_writes.cc" />
+      <item itemvalue="CMake Application.tidy_quiet_util__address.cc" />
+      <item itemvalue="CMake Application.tidy_quiet_util__buffer.cc" />
+      <item itemvalue="CMake Application.tidy_quiet_util__eventloop.cc" />
+      <item itemvalue="CMake Application.tidy_quiet_util__file_descriptor.cc" />
+      <item itemvalue="CMake Application.tidy_quiet_util__parser.cc" />
+      <item itemvalue="CMake Application.tidy_quiet_util__socket.cc" />
+      <item itemvalue="CMake Application.tidy_quiet_util__tun.cc" />
+      <item itemvalue="CMake Application.tidy_quiet_util__util.cc" />
+      <item itemvalue="CMake Application.tidy_tests__byte_stream_capacity.cc" />
+      <item itemvalue="CMake Application.tidy_tests__byte_stream_construction.cc" />
+      <item itemvalue="CMake Application.tidy_tests__byte_stream_many_writes.cc" />
+      <item itemvalue="CMake Application.tidy_tests__byte_stream_one_write.cc" />
+      <item itemvalue="CMake Application.tidy_tests__byte_stream_test_harness.cc" />
+      <item itemvalue="CMake Application.tidy_tests__byte_stream_two_writes.cc" />
+      <item itemvalue="CMake Application.tidy_util__address.cc" />
+      <item itemvalue="CMake Application.tidy_util__buffer.cc" />
+      <item itemvalue="CMake Application.tidy_util__eventloop.cc" />
+      <item itemvalue="CMake Application.tidy_util__file_descriptor.cc" />
+      <item itemvalue="CMake Application.tidy_util__parser.cc" />
+      <item itemvalue="CMake Application.tidy_util__socket.cc" />
+      <item itemvalue="CMake Application.tidy_util__tun.cc" />
+      <item itemvalue="CMake Application.tidy_util__util.cc" />
+      <item itemvalue="CMake Application.tidy_verbose" />
+      <item itemvalue="CMake Application.webget" />
+      <item itemvalue="CMake Application.address_dt" />
+      <item itemvalue="CMake Application.parser_dt" />
+      <item itemvalue="CMake Application.socket_dt" />
+      <item itemvalue="CMake Application.sponge" />
+      <item itemvalue="CMake Application.byte_stream_capacity" />
+      <item itemvalue="CMake Application.byte_stream_construction" />
+      <item itemvalue="CMake Application.byte_stream_many_writes" />
+      <item itemvalue="CMake Application.byte_stream_one_write" />
+      <item itemvalue="CMake Application.byte_stream_two_writes" />
+      <item itemvalue="CMake Application.spongechecks" />
+      <item itemvalue="CTest Application.All CTest" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b2572311-e492-46a6-a3d4-84e37aa4aada" name="Changes" comment="" />
+      <created>1665086238722</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665086238722</updated>
+      <workItem from="1665086240314" duration="4541000" />
+      <workItem from="1665092726931" duration="71000" />
+      <workItem from="1665092930955" duration="953000" />
+      <workItem from="1665099848577" duration="575000" />
+      <workItem from="1665139121461" duration="2605000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

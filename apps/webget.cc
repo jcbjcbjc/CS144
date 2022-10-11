@@ -1,13 +1,23 @@
 #include "socket.hh"
 #include "util.hh"
-
 #include <cstdlib>
 #include <iostream>
 
 using namespace std;
 
 void get_URL(const string &host, const string &path) {
-    // Your code here.
+
+    TCPSocket sock1;
+    Address addr = Address(host, "http");
+    sock1.connect(addr);
+    sock1.write("GET " + path + " " + "HTTP/1.1\r\nHost: " + host + "\r\nConnection: close\r\n\r\n");
+    while (1) {
+        auto recv = sock1.read(100000);
+        cout << recv;
+        if (sock1.eof())
+            break;
+    }
+    sock1.close();
 
     // You will need to connect to the "http" service on
     // the computer whose name is in the "host" string,
