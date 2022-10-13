@@ -11,102 +11,114 @@ template <typename... Targs>
 void DUMMY_CODE(Targs &&... /* unused */) {}
 
 using namespace std;
-
 StreamReassembler::StreamReassembler(const size_t capacity)
-    : _output(capacity), _Unassembled(), _firstUnassembled(0), _nUnassembled(0), _capacity(capacity), _eof(false) {}
+    : _output(capacity), _capacity(capacity), _first_unacceptable(capacity) {}
 
 //! \details This function accepts a substring (aka a segment) of bytes,
 //! possibly out-of-order, from the logical stream, and assembles any newly
 //! contiguous substrings and writes them into the output stream in order.
-
-void StreamReassembler::push_substring(const std::string &data, const size_t index, const bool eof) {
-    _eof = _eof | eof;
-
-    size_t firstUnacceptable = _firstUnassembled + (_capacity - _output.buffer_size());
-
-    //不能直接影响_output的情形，储存的数据提前优化处理
-    std::set<typeUnassembled>::iterator iter2;
-    size_t resIndex = index;
-    auto resData = std::string(data);
-    if (resIndex < _firstUnassembled) {
-        resData = resData.substr(_firstUnassembled - resIndex);
-        resIndex = _firstUnassembled;
-    }
-    if (resIndex + resData.size() > firstUnacceptable)
-        resData = resData.substr(0, firstUnacceptable - resIndex);
-
-    //           | resData |
-    //        <---|iter|
-    iter2=_Unassembled.lower_bound(typeUnassembled(resIndex,resData));
-    while(iter2!=_Unassembled.begin()){
-        //resIndex > _firstUnassembled
-        if(iter2==_Unassembled.end())
-            iter2--;
-        if (size_t deleteNum = merge_substring(resIndex, resData, iter2)) {  //返回值是删掉重合的bytes数
-            _nUnassembled -= deleteNum;
-            if(iter2 !=_Unassembled.begin()){
-                _Unassembled.erase(iter2--);
-            }
-            else{
-                _Unassembled.erase(iter2);
-                break;
-            }
-        }
-        else
-            break;
-    }
-
-    //         ｜resData |
-    //          | iter2 ... | --->
-    iter2 = _Unassembled.lower_bound(typeUnassembled(resIndex, resData));
-    while(iter2 != _Unassembled.end()){
-        if (size_t deleteNum = merge_substring(resIndex, resData, iter2)) {  //返回值是删掉重合的bytes数
-            _Unassembled.erase(iter2++);
-            _nUnassembled -= deleteNum;
-        } else
-            break;
-    }
-
-    if (resIndex <= _firstUnassembled) {
-        size_t wSize = _output.write(string(resData.begin() + _firstUnassembled - resIndex, resData.end()));
-        if (wSize == resData.size() && eof)
-            _output.end_input();
-        _firstUnassembled += wSize;
-    } else {
-        _Unassembled.insert(typeUnassembled(resIndex, resData));
-        _nUnassembled += resData.size();
-    }
-
-    if (empty() && _eof) {
+void StreamReassembler::push_substring(const string &data, const size_t index, const bool eof) {
+    _first_unread = _output.bytes_read();
+    _first_unacceptable = _first_unread + _capacity;
+    seg new_seg = {index, data.length(), data};
+    _add_new_seg(new_seg, eof);
+    _stitch_output();
+    if (empty() && _eof)
         _output.end_input();
-    }
-    return;
-}
-int StreamReassembler::merge_substring(size_t &index, std::string &data, std::set<typeUnassembled>::iterator iter2) {
-    // return value: 1:successfully merge; 0:fail to merge
-    std::string data2 = (*iter2).data;
-    size_t l2 = (*iter2).index, r2 = l2 + data2.size() - 1;
-    size_t l1 = index, r1 = l1 + data.size() - 1;
-    if (l2 > r1 + 1 || l1 > r2 + 1)
-        return 0;
-    index = min(l1, l2);
-    size_t deleteNum = data2.size();
-    if (l1 <= l2) {
-        if (r2 > r1)
-            data += std::string(data2.begin() + r1 - l2 + 1, data2.end());
-    } else {
-        if (r1 > r2)
-            data2 += std::string(data.begin() + r2 - l1 + 1, data.end());
-        data.assign(data2);
-    }
-    return deleteNum;
 }
 
-size_t StreamReassembler::unassembled_bytes() const { return _nUnassembled; }
+void StreamReassembler::_add_new_seg(seg &new_seg, const bool eof) {
+    // check capacity limit, if unmeet limit, return
+    // cut the bytes in NEW_SEG that will overflow the _CAPACITY
+    // note that the EOF should also be cut
+    // cut the bytes in NEW_SEG that are already in _OUTPUT
+    // _HANDLE_OVERLAP()
+    // update _EOF
+    if (new_seg.index >= _first_unacceptable)
+        return;
+    bool eof_of_this_seg = eof;
+    if (int overflow_bytes = new_seg.index + new_seg.length - _first_unacceptable; overflow_bytes > 0) {
+        int new_length = new_seg.length - overflow_bytes;
+        if (new_length <= 0)
+            return;
+        eof_of_this_seg = false;
+        new_seg.length = new_length;
+        new_seg.data = new_seg.data.substr(0, new_seg.length);
+    }
+    if (new_seg.index < _first_unassembled) {
+        int new_length = new_seg.length - (_first_unassembled - new_seg.index);
+        if (new_length <= 0)
+            return;
+        new_seg.length = new_length;
+        new_seg.data = new_seg.data.substr(_first_unassembled - new_seg.index, new_seg.length);
+        new_seg.index = _first_unassembled;
+    }
+    _handle_overlap(new_seg);
+    // if EOF was received before, it should remain valid
+    _eof = _eof || eof_of_this_seg;
+}
 
-bool StreamReassembler::empty() const { return _nUnassembled == 0; }
+void StreamReassembler::_handle_overlap(seg &new_seg) {
+    for (auto it = _stored_segs.begin(); it != _stored_segs.end();) {
+        auto next_it = ++it;
+        --it;
+        if ((new_seg.index >= it->index && new_seg.index < it->index + it->length) ||
+            (it->index >= new_seg.index && it->index < new_seg.index + new_seg.length)) {
+            _merge_seg(new_seg, *it);
+            _stored_segs.erase(it);
+        }
+        it = next_it;
+    }
+    _stored_segs.insert(new_seg);
+}
 
-// std::pair<std::set<typeUnassembled>::iterator,bool> ret;
-// ret=_Unassembled.insert(typeUnassembled(index,data));
-// _nUnassembled+=data.size();
-// std::set<typeUnassembled>::iterator iter1=ret.first;, 太坑了！返回的不是它本身！！！！！！！！
+void StreamReassembler::_stitch_output() {
+    // _FIRST_UNASSEMBLED is the expected next index_FIRST_UNASSEMBLED
+    // compare _STORED_SEGS.begin()->index with
+    // if equals, then _STITCH_ONE_SEG() and erase this seg from set
+    // continue compare until not equal or empty
+    while (!_stored_segs.empty() && _stored_segs.begin()->index == _first_unassembled) {
+        _stitch_one_seg(*_stored_segs.begin());
+        _stored_segs.erase(_stored_segs.begin());
+    }
+}
+
+void StreamReassembler::_stitch_one_seg(const seg &new_seg) {
+    // write string of NEW_SEG into _OUTPUT
+    // update _FIRST_UNASSEMBLED
+    _output.write(new_seg.data);
+    _first_unassembled += new_seg.length;
+    // both way of updating _FIRST_UNASSEMBLED is ok
+    // _first_unassembled = _output.bytes_written();
+}
+
+void StreamReassembler::_merge_seg(seg &new_seg, const seg &other) {
+    size_t n_index = new_seg.index;
+    size_t n_end = new_seg.index + new_seg.length;
+    size_t o_index = other.index;
+    size_t o_end = other.index + other.length;
+    string new_data;
+    if (n_index <= o_index && n_end <= o_end) {
+        new_data = new_seg.data + other.data.substr(n_end - o_index, n_end - o_end);
+    } else if (n_index <= o_index && n_end >= o_end) {
+        new_data = new_seg.data;
+    } else if (n_index >= o_index && n_end <= o_end) {
+        new_data =
+            other.data.substr(0, n_index - o_index) + new_seg.data + other.data.substr(n_end - o_index, n_end - o_end);
+    } else{
+        new_data = other.data.substr(0, n_index - o_index) + new_seg.data;
+    }
+    new_seg.index = n_index < o_index ? n_index : o_index;
+    new_seg.length = (n_end > o_end ? n_end : o_end) - new_seg.index;
+    new_seg.data = new_data;
+}
+
+size_t StreamReassembler::unassembled_bytes() const {
+    size_t unassembled_bytes = 0;
+    for (auto it = _stored_segs.begin(); it != _stored_segs.end(); ++it)
+        unassembled_bytes += it->length;
+    return unassembled_bytes;
+}
+
+bool StreamReassembler::empty() const { return unassembled_bytes() == 0; }
+
