@@ -28,7 +28,7 @@ class StreamReassembler {
     };
     std::set<seg> _stored_segs = {};
 
-    void _add_new_seg(seg &new_seg, bool eof);
+    void _add_new_seg(seg &new_seg,const bool eof);
     void _handle_overlap(seg &new_seg);
     void _stitch_output();
     void _stitch_one_seg(const seg &new_seg);

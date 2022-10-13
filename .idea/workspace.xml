@@ -241,11 +241,6 @@
   }
 }</component>
   <component name="RunManager" selected="CMake Application.check_lab0">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="address_dt" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="address_dt" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Sponge" RUN_TARGET_NAME="address_dt">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -1359,7 +1354,8 @@
       <workItem from="1665610039124" duration="1212000" />
       <workItem from="1665613534464" duration="6813000" />
       <workItem from="1665651058554" duration="3850000" />
-      <workItem from="1665662645161" duration="1379000" />
+      <workItem from="1665662645161" duration="2519000" />
+      <workItem from="1665672367646" duration="3158000" />
     </task>
     <servers />
   </component>
