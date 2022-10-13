@@ -77,6 +77,18 @@
 			"id" : "tidy_quiet_libsponge__stream_reassembler.cc::@6890427a1f51a3e7e1df"
 		},
 		{
+			"id" : "tidy_quiet_tcp_helpers__tcp_header.cc::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "tidy_quiet_tcp_helpers__tcp_segment.cc::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "tidy_quiet_tcp_helpers__tcp_state.cc::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "tidy_quiet_libsponge__tcp_receiver.cc::@6890427a1f51a3e7e1df"
+		},
+		{
 			"id" : "tidy_quiet_util__address.cc::@6890427a1f51a3e7e1df"
 		},
 		{
@@ -99,6 +111,9 @@
 		},
 		{
 			"id" : "tidy_quiet_util__util.cc::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "tidy_quiet_libsponge__wrapping_integers.cc::@6890427a1f51a3e7e1df"
 		},
 		{
 			"id" : "tidy_quiet_tests__byte_stream_capacity.cc::@6890427a1f51a3e7e1df"

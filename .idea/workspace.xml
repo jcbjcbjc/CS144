@@ -8,181 +8,202 @@
       <config projectName="Sponge" targetName="tidy_tests__recv_window.cc" />
       <config projectName="Sponge" targetName="byte_stream_one_write" />
       <config projectName="Sponge" targetName="tidy_doctests__socket_example_3.cc" />
-      <config projectName="Sponge" targetName="address_dt" />
       <config projectName="Sponge" targetName="tidy_tests__byte_stream_one_write.cc" />
-      <config projectName="Sponge" targetName="tidy_doctests__parser_dt.cc" />
-      <config projectName="Sponge" targetName="tidy_quiet_util__tun.cc" />
-      <config projectName="Sponge" targetName="tidy_tests__byte_stream_construction.cc" />
-      <config projectName="Sponge" targetName="byte_stream_two_writes" />
       <config projectName="Sponge" targetName="tidy_quiet_tests__fsm_listen_relaxed.cc" />
-      <config projectName="Sponge" targetName="fsm_stream_reassembler_many" />
-      <config projectName="Sponge" targetName="tidy_quiet_tests__fsm_ack_rst.cc" />
-      <config projectName="Sponge" targetName="tidy_quiet_tests__tcp_parser.cc" />
       <config projectName="Sponge" targetName="tidy_quiet_tests__fsm_stream_reassembler_holes.cc" />
       <config projectName="Sponge" targetName="tidy_quiet_libsponge__stream_reassembler.cc" />
       <config projectName="Sponge" targetName="tidy_quiet_tests__ipv4_parser.cc" />
+      <config projectName="Sponge" targetName="tidy_quiet_tcp_helpers__tcp_segment.cc" />
       <config projectName="Sponge" targetName="tidy_quiet_tests__byte_stream_one_write.cc" />
       <config projectName="Sponge" targetName="tidy_tests__fsm_ack_rst.cc" />
       <config projectName="Sponge" targetName="tidy_quiet_tests__send_close.cc" />
-      <config projectName="Sponge" targetName="fsm_stream_reassembler_overlapping" />
-      <config projectName="Sponge" targetName="tidy_quiet_doctests__address_example_2.cc" />
       <config projectName="Sponge" targetName="tidy_util__file_descriptor.cc" />
       <config projectName="Sponge" targetName="tidy_tests__fsm_stream_reassembler_seq.cc" />
-      <config projectName="Sponge" targetName="tidy_quiet_doctests__socket_example_2.cc" />
-      <config projectName="Sponge" targetName="tidy_tests__ipv4_parser.cc" />
       <config projectName="Sponge" targetName="parser_dt" />
       <config projectName="Sponge" targetName="tidy_tests__send_retx.cc" />
-      <config projectName="Sponge" targetName="webget" />
       <config projectName="Sponge" targetName="tidy_quiet_tests__fsm_ack_rst_win.cc" />
-      <config projectName="Sponge" targetName="tidy_util__parser.cc" />
       <config projectName="Sponge" targetName="tidy_quiet_util__address.cc" />
-      <config projectName="Sponge" targetName="tidy_tests__wrapping_integers_roundtrip.cc" />
       <config projectName="Sponge" targetName="tidy_tests__byte_stream_two_writes.cc" />
-      <config projectName="Sponge" targetName="tidy_quiet_tests__fsm_retx_relaxed.cc" />
-      <config projectName="Sponge" targetName="tidy_quiet_tests__byte_stream_many_writes.cc" />
-      <config projectName="Sponge" targetName="tidy_util__tun.cc" />
       <config projectName="Sponge" targetName="tidy_quiet_tests__fsm_stream_reassembler_overlapping.cc" />
       <config projectName="Sponge" targetName="tidy_quiet_tests__byte_stream_construction.cc" />
-      <config projectName="Sponge" targetName="tidy_quiet_tests__fsm_connect.cc" />
-      <config projectName="Sponge" targetName="tidy_tests__send_ack.cc" />
       <config projectName="Sponge" targetName="tidy_quiet_tests__fsm_retx_win.cc" />
-      <config projectName="Sponge" targetName="tidy_quiet_tests__fsm_stream_reassembler_many.cc" />
-      <config projectName="Sponge" targetName="tidy_quiet_tests__network_interface_test_harness.cc" />
       <config projectName="Sponge" targetName="tidy_tests__fsm_stream_reassembler_win.cc" />
-      <config projectName="Sponge" targetName="byte_stream_capacity" />
-      <config projectName="Sponge" targetName="tidy_quiet_doctests__socket_example_1.cc" />
-      <config projectName="Sponge" targetName="tidy_quiet_tests__send_connect.cc" />
-      <config projectName="Sponge" targetName="tidy_tests__fsm_ack_rst_relaxed.cc" />
       <config projectName="Sponge" targetName="tidy_tests__tcp_parser.cc" />
       <config projectName="Sponge" targetName="tidy_quiet_tests__fsm_loopback_win.cc" />
       <config projectName="Sponge" targetName="tidy_quiet_tests__fsm_winsize.cc" />
       <config projectName="Sponge" targetName="check_lab3" />
       <config projectName="Sponge" targetName="check_lab2" />
       <config projectName="Sponge" targetName="check_lab1" />
-      <config projectName="Sponge" targetName="fsm_stream_reassembler_dup" />
       <config projectName="Sponge" targetName="check_lab0" />
-      <config projectName="Sponge" targetName="tidy_quiet_util__file_descriptor.cc" />
       <config projectName="Sponge" targetName="check_lab6" />
-      <config projectName="Sponge" targetName="tidy_tests__recv_close.cc" />
       <config projectName="Sponge" targetName="check_lab5" />
       <config projectName="Sponge" targetName="format" />
       <config projectName="Sponge" targetName="check_lab4" />
-      <config projectName="Sponge" targetName="tidy_quiet_doctests__parser_dt.cc" />
-      <config projectName="Sponge" targetName="tidy_quiet_util__eventloop.cc" />
       <config projectName="Sponge" targetName="tidy_quiet_tests__fsm_ack_rst_win_relaxed.cc" />
       <config projectName="Sponge" targetName="tidy" />
-      <config projectName="Sponge" targetName="tidy_tests__fsm_retx.cc" />
-      <config projectName="Sponge" targetName="tidy_tests__fsm_retx_relaxed.cc" />
       <config projectName="Sponge" targetName="tidy_tests__fsm_stream_reassembler_overlapping.cc" />
       <config projectName="Sponge" targetName="tidy_tests__fsm_listen.cc" />
       <config projectName="Sponge" targetName="tidy_doctests__socket_example_2.cc" />
-      <config projectName="Sponge" targetName="tidy_quiet_tests__recv_connect.cc" />
       <config projectName="Sponge" targetName="tidy_quiet_tests__send_window.cc" />
       <config projectName="Sponge" targetName="tidy_quiet_tests__fsm_connect_relaxed.cc" />
-      <config projectName="Sponge" targetName="tidy_quiet_doctests__address_dt.cc" />
-      <config projectName="Sponge" targetName="tidy_util__socket.cc" />
       <config projectName="Sponge" targetName="tidy_quiet_tests__fsm_reorder.cc" />
       <config projectName="Sponge" targetName="tidy_quiet_tests__wrapping_integers_roundtrip.cc" />
-      <config projectName="Sponge" targetName="fsm_stream_reassembler_win" />
-      <config projectName="Sponge" targetName="tidy_tests__net_interface.cc" />
-      <config projectName="Sponge" targetName="fsm_stream_reassembler_single" />
       <config projectName="Sponge" targetName="tidy_doctests__address_example_1.cc" />
-      <config projectName="Sponge" targetName="tidy_quiet_util__socket.cc" />
-      <config projectName="Sponge" targetName="tidy_quiet_tests__send_equivalence_checker.cc" />
       <config projectName="Sponge" targetName="tidy_quiet_tests__send_extra.cc" />
       <config projectName="Sponge" targetName="tidy_tests__recv_transmit.cc" />
+      <config projectName="Sponge" targetName="tidy_quiet_util__buffer.cc" />
+      <config projectName="Sponge" targetName="byte_stream_many_writes" />
+      <config projectName="Sponge" targetName="tidy_quiet_tests__fsm_stream_reassembler_dup.cc" />
+      <config projectName="Sponge" targetName="tidy_tcp_helpers__tcp_segment.cc" />
+      <config projectName="Sponge" targetName="tidy_quiet_doctests__socket_example_3.cc" />
+      <config projectName="Sponge" targetName="tidy_quiet_tests__wrapping_integers_wrap.cc" />
+      <config projectName="Sponge" targetName="tidy_tests__fsm_loopback.cc" />
+      <config projectName="Sponge" targetName="tidy_tests__recv_special.cc" />
+      <config projectName="Sponge" targetName="byte_stream_construction" />
+      <config projectName="Sponge" targetName="tidy_libsponge__wrapping_integers.cc" />
+      <config projectName="Sponge" targetName="tidy_quiet_util__parser.cc" />
+      <config projectName="Sponge" targetName="fsm_stream_reassembler_holes" />
+      <config projectName="Sponge" targetName="recv_transmit" />
+      <config projectName="Sponge" targetName="tidy_quiet_tests__byte_stream_capacity.cc" />
+      <config projectName="Sponge" targetName="tidy_tests__fsm_active_close.cc" />
+      <config projectName="Sponge" targetName="tidy_tests__fsm_connect_relaxed.cc" />
+      <config projectName="Sponge" targetName="tidy_quiet_tests__recv_reorder.cc" />
+      <config projectName="Sponge" targetName="tidy_quiet_tests__wrapping_integers_cmp.cc" />
+      <config projectName="Sponge" targetName="tidy_verbose" />
+      <config projectName="Sponge" targetName="tidy_quiet_tests__fsm_stream_reassembler_single.cc" />
+      <config projectName="Sponge" targetName="tidy_tests__send_window.cc" />
+      <config projectName="Sponge" targetName="tidy_quiet_tests__tcp_fsm_test_harness.cc" />
+      <config projectName="Sponge" targetName="tidy_quiet_doctests__address_example_3.cc" />
+      <config projectName="Sponge" targetName="tidy_tests__fsm_loopback_win.cc" />
+      <config projectName="Sponge" targetName="tidy_tests__byte_stream_many_writes.cc" />
+      <config projectName="Sponge" targetName="tidy_tests__fsm_listen_relaxed.cc" />
+      <config projectName="Sponge" targetName="tidy_util__address.cc" />
+      <config projectName="Sponge" targetName="tidy_quiet_tests__fsm_passive_close.cc" />
+      <config projectName="Sponge" targetName="tidy_quiet_tests__net_interface.cc" />
+      <config projectName="Sponge" targetName="tidy_tests__fsm_stream_reassembler_single.cc" />
+      <config projectName="Sponge" targetName="tidy_util__eventloop.cc" />
+      <config projectName="Sponge" targetName="tidy_tests__fsm_ack_rst_win.cc" />
+      <config projectName="Sponge" targetName="tidy_tcp_helpers__tcp_state.cc" />
+      <config projectName="Sponge" targetName="tidy_tests__fsm_winsize.cc" />
+      <config projectName="Sponge" targetName="tidy_quiet_doctests__socket_dt.cc" />
+      <config projectName="Sponge" targetName="tcp_parser" />
+      <config projectName="Sponge" targetName="recv_reorder" />
+      <config projectName="Sponge" targetName="wrapping_integers_roundtrip" />
+      <config projectName="Sponge" targetName="check" />
+      <config projectName="Sponge" targetName="tidy_quiet_tcp_helpers__tcp_state.cc" />
+      <config projectName="Sponge" targetName="tidy_tests__fsm_passive_close.cc" />
+      <config projectName="Sponge" targetName="tidy_quiet_tests__fsm_active_close.cc" />
+      <config projectName="Sponge" targetName="address_dt" />
+      <config projectName="Sponge" targetName="tidy_libsponge__tcp_receiver.cc" />
+      <config projectName="Sponge" targetName="tidy_doctests__parser_dt.cc" />
+      <config projectName="Sponge" targetName="tidy_quiet_util__tun.cc" />
+      <config projectName="Sponge" targetName="tidy_tests__byte_stream_construction.cc" />
+      <config projectName="Sponge" targetName="byte_stream_two_writes" />
+      <config projectName="Sponge" targetName="recv_window" />
+      <config projectName="Sponge" targetName="fsm_stream_reassembler_many" />
+      <config projectName="Sponge" targetName="tidy_quiet_tests__fsm_ack_rst.cc" />
+      <config projectName="Sponge" targetName="tidy_quiet_tests__tcp_parser.cc" />
+      <config projectName="Sponge" targetName="recv_close" />
+      <config projectName="Sponge" targetName="fsm_stream_reassembler_overlapping" />
+      <config projectName="Sponge" targetName="tidy_quiet_doctests__address_example_2.cc" />
+      <config projectName="Sponge" targetName="tidy_quiet_doctests__socket_example_2.cc" />
+      <config projectName="Sponge" targetName="tidy_tcp_helpers__tcp_header.cc" />
+      <config projectName="Sponge" targetName="tidy_tests__ipv4_parser.cc" />
+      <config projectName="Sponge" targetName="webget" />
+      <config projectName="Sponge" targetName="tidy_util__parser.cc" />
+      <config projectName="Sponge" targetName="tidy_tests__wrapping_integers_roundtrip.cc" />
+      <config projectName="Sponge" targetName="tidy_quiet_tests__fsm_retx_relaxed.cc" />
+      <config projectName="Sponge" targetName="tidy_quiet_tests__byte_stream_many_writes.cc" />
+      <config projectName="Sponge" targetName="wrapping_integers_cmp" />
+      <config projectName="Sponge" targetName="tidy_util__tun.cc" />
+      <config projectName="Sponge" targetName="tidy_quiet_tests__fsm_connect.cc" />
+      <config projectName="Sponge" targetName="tidy_tests__send_ack.cc" />
+      <config projectName="Sponge" targetName="tidy_quiet_tests__fsm_stream_reassembler_many.cc" />
+      <config projectName="Sponge" targetName="tidy_quiet_tests__network_interface_test_harness.cc" />
+      <config projectName="Sponge" targetName="byte_stream_capacity" />
+      <config projectName="Sponge" targetName="tidy_quiet_doctests__socket_example_1.cc" />
+      <config projectName="Sponge" targetName="tidy_quiet_tests__send_connect.cc" />
+      <config projectName="Sponge" targetName="tidy_tests__fsm_ack_rst_relaxed.cc" />
+      <config projectName="Sponge" targetName="recv_connect" />
+      <config projectName="Sponge" targetName="fsm_stream_reassembler_dup" />
+      <config projectName="Sponge" targetName="tidy_quiet_util__file_descriptor.cc" />
+      <config projectName="Sponge" targetName="tidy_tests__recv_close.cc" />
+      <config projectName="Sponge" targetName="tidy_quiet_doctests__parser_dt.cc" />
+      <config projectName="Sponge" targetName="tidy_quiet_util__eventloop.cc" />
+      <config projectName="Sponge" targetName="tidy_tests__fsm_retx.cc" />
+      <config projectName="Sponge" targetName="tidy_tests__fsm_retx_relaxed.cc" />
+      <config projectName="Sponge" targetName="tidy_quiet_tests__recv_connect.cc" />
+      <config projectName="Sponge" targetName="tidy_quiet_doctests__address_dt.cc" />
+      <config projectName="Sponge" targetName="tidy_util__socket.cc" />
+      <config projectName="Sponge" targetName="fsm_stream_reassembler_win" />
+      <config projectName="Sponge" targetName="wrapping_integers_wrap" />
+      <config projectName="Sponge" targetName="tidy_tests__net_interface.cc" />
+      <config projectName="Sponge" targetName="fsm_stream_reassembler_single" />
+      <config projectName="Sponge" targetName="tidy_quiet_util__socket.cc" />
+      <config projectName="Sponge" targetName="tidy_quiet_tests__send_equivalence_checker.cc" />
+      <config projectName="Sponge" targetName="tidy_quiet_libsponge__tcp_receiver.cc" />
       <config projectName="Sponge" targetName="tidy_tests__wrapping_integers_wrap.cc" />
       <config projectName="Sponge" targetName="tidy_quiet_tests__byte_stream_test_harness.cc" />
       <config projectName="Sponge" targetName="tidy_quiet_tests__send_transmit.cc" />
       <config projectName="Sponge" targetName="tidy_tests__fsm_stream_reassembler_cap.cc" />
-      <config projectName="Sponge" targetName="tidy_quiet_util__buffer.cc" />
       <config projectName="Sponge" targetName="spongechecks" />
       <config projectName="Sponge" targetName="tidy_quiet_tests__send_ack.cc" />
       <config projectName="Sponge" targetName="tidy_quiet_util__util.cc" />
       <config projectName="Sponge" targetName="fsm_stream_reassembler_cap" />
-      <config projectName="Sponge" targetName="byte_stream_many_writes" />
-      <config projectName="Sponge" targetName="tidy_quiet_tests__fsm_stream_reassembler_dup.cc" />
       <config projectName="Sponge" targetName="tidy_quiet_doctests__address_example_1.cc" />
-      <config projectName="Sponge" targetName="tidy_quiet_doctests__socket_example_3.cc" />
       <config projectName="Sponge" targetName="tidy_tests__fsm_stream_reassembler_many.cc" />
-      <config projectName="Sponge" targetName="tidy_quiet_tests__wrapping_integers_wrap.cc" />
       <config projectName="Sponge" targetName="tidy_quiet_tests__byte_stream_two_writes.cc" />
       <config projectName="Sponge" targetName="tidy_quiet_apps__webget.cc" />
-      <config projectName="Sponge" targetName="tidy_tests__fsm_loopback.cc" />
       <config projectName="Sponge" targetName="tidy_util__buffer.cc" />
-      <config projectName="Sponge" targetName="tidy_tests__recv_special.cc" />
       <config projectName="Sponge" targetName="sponge" />
       <config projectName="Sponge" targetName="tidy_tests__send_connect.cc" />
       <config projectName="Sponge" targetName="tidy_tests__fsm_reorder.cc" />
+      <config projectName="Sponge" targetName="tidy_quiet_libsponge__wrapping_integers.cc" />
       <config projectName="Sponge" targetName="tidy_doctests__address_example_2.cc" />
-      <config projectName="Sponge" targetName="byte_stream_construction" />
+      <config projectName="Sponge" targetName="recv_special" />
       <config projectName="Sponge" targetName="tidy_tests__network_interface_test_harness.cc" />
       <config projectName="Sponge" targetName="tidy_quiet_tests__fsm_stream_reassembler_seq.cc" />
-      <config projectName="Sponge" targetName="tidy_quiet_util__parser.cc" />
-      <config projectName="Sponge" targetName="fsm_stream_reassembler_holes" />
       <config projectName="Sponge" targetName="tidy_doctests__socket_dt.cc" />
       <config projectName="Sponge" targetName="tidy_util__util.cc" />
       <config projectName="Sponge" targetName="tidy_libsponge__stream_reassembler.cc" />
       <config projectName="Sponge" targetName="check_webget" />
       <config projectName="Sponge" targetName="tidy_quiet_tests__fsm_stream_reassembler_cap.cc" />
       <config projectName="Sponge" targetName="tidy_quiet_tests__fsm_retx.cc" />
-      <config projectName="Sponge" targetName="tidy_quiet_tests__byte_stream_capacity.cc" />
       <config projectName="Sponge" targetName="tidy_tests__fsm_ack_rst_win_relaxed.cc" />
-      <config projectName="Sponge" targetName="tidy_tests__fsm_active_close.cc" />
-      <config projectName="Sponge" targetName="tidy_tests__fsm_connect_relaxed.cc" />
       <config projectName="Sponge" targetName="tidy_tests__fsm_stream_reassembler_holes.cc" />
       <config projectName="Sponge" targetName="tidy_quiet_tests__recv_close.cc" />
       <config projectName="Sponge" targetName="tidy_tests__recv_connect.cc" />
-      <config projectName="Sponge" targetName="tidy_quiet_tests__recv_reorder.cc" />
-      <config projectName="Sponge" targetName="tidy_quiet_tests__wrapping_integers_cmp.cc" />
       <config projectName="Sponge" targetName="tidy_tests__wrapping_integers_unwrap.cc" />
-      <config projectName="Sponge" targetName="tidy_verbose" />
-      <config projectName="Sponge" targetName="tidy_quiet_tests__fsm_stream_reassembler_single.cc" />
       <config projectName="Sponge" targetName="tidy_quiet_tests__wrapping_integers_unwrap.cc" />
-      <config projectName="Sponge" targetName="tidy_tests__send_window.cc" />
-      <config projectName="Sponge" targetName="tidy_quiet_tests__tcp_fsm_test_harness.cc" />
+      <config projectName="Sponge" targetName="wrapping_integers_unwrap" />
       <config projectName="Sponge" targetName="tidy_doctests__socket_example_1.cc" />
       <config projectName="Sponge" targetName="tidy_quiet_tests__fsm_ack_rst_relaxed.cc" />
-      <config projectName="Sponge" targetName="tidy_quiet_doctests__address_example_3.cc" />
-      <config projectName="Sponge" targetName="tidy_tests__fsm_loopback_win.cc" />
-      <config projectName="Sponge" targetName="tidy_tests__byte_stream_many_writes.cc" />
-      <config projectName="Sponge" targetName="tidy_tests__fsm_listen_relaxed.cc" />
       <config projectName="Sponge" targetName="tidy_quiet_libsponge__byte_stream.cc" />
-      <config projectName="Sponge" targetName="tidy_util__address.cc" />
-      <config projectName="Sponge" targetName="tidy_quiet_tests__fsm_passive_close.cc" />
-      <config projectName="Sponge" targetName="tidy_quiet_tests__net_interface.cc" />
       <config projectName="Sponge" targetName="tidy_doctests__address_example_3.cc" />
-      <config projectName="Sponge" targetName="tidy_tests__fsm_stream_reassembler_single.cc" />
       <config projectName="Sponge" targetName="tidy_quiet_tests__fsm_stream_reassembler_win.cc" />
       <config projectName="Sponge" targetName="tidy_tests__recv_reorder.cc" />
       <config projectName="Sponge" targetName="tidy_doctests__parser_example.cc" />
       <config projectName="Sponge" targetName="tidy_tests__tcp_fsm_test_harness.cc" />
       <config projectName="Sponge" targetName="tidy_tests__fsm_retx_win.cc" />
-      <config projectName="Sponge" targetName="tidy_util__eventloop.cc" />
-      <config projectName="Sponge" targetName="tidy_tests__fsm_ack_rst_win.cc" />
       <config projectName="Sponge" targetName="tidy_tests__send_close.cc" />
       <config projectName="Sponge" targetName="tidy_quiet_doctests__parser_example.cc" />
       <config projectName="Sponge" targetName="tidy_quiet_tests__fsm_loopback.cc" />
       <config projectName="Sponge" targetName="tidy_quiet_tests__fsm_listen.cc" />
+      <config projectName="Sponge" targetName="tidy_quiet_tcp_helpers__tcp_header.cc" />
       <config projectName="Sponge" targetName="tidy_apps__webget.cc" />
       <config projectName="Sponge" targetName="tidy_tests__byte_stream_capacity.cc" />
       <config projectName="Sponge" targetName="tidy_tests__fsm_connect.cc" />
-      <config projectName="Sponge" targetName="tidy_tests__fsm_winsize.cc" />
       <config projectName="Sponge" targetName="tidy_tests__send_equivalence_checker.cc" />
       <config projectName="Sponge" targetName="tidy_tests__wrapping_integers_cmp.cc" />
       <config projectName="Sponge" targetName="fsm_stream_reassembler_seq" />
       <config projectName="Sponge" targetName="tidy_quiet_tests__recv_window.cc" />
       <config projectName="Sponge" targetName="tidy_quiet_tests__send_retx.cc" />
-      <config projectName="Sponge" targetName="tidy_quiet_doctests__socket_dt.cc" />
       <config projectName="Sponge" targetName="tidy_quiet_tests__recv_special.cc" />
       <config projectName="Sponge" targetName="tidy_tests__byte_stream_test_harness.cc" />
-      <config projectName="Sponge" targetName="check" />
       <config projectName="Sponge" targetName="tidy_tests__send_extra.cc" />
       <config projectName="Sponge" targetName="socket_dt" />
       <config projectName="Sponge" targetName="tidy_tests__send_transmit.cc" />
-      <config projectName="Sponge" targetName="tidy_tests__fsm_passive_close.cc" />
       <config projectName="Sponge" targetName="tidy_tests__fsm_stream_reassembler_dup.cc" />
-      <config projectName="Sponge" targetName="tidy_quiet_tests__fsm_active_close.cc" />
       <config projectName="Sponge" targetName="tidy_quiet_tests__recv_transmit.cc" />
       <config projectName="Sponge" targetName="tidy_doctests__address_dt.cc" />
       <config projectName="Sponge" targetName="tidy_libsponge__byte_stream.cc" />
@@ -196,9 +217,34 @@
   <component name="ChangeListManager">
     <list default="true" id="b2572311-e492-46a6-a3d4-84e37aa4aada" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-125e02fae610bef47ee2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2022-10-13T09-55-02-0195.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-byte_stream_capacity-Debug-07b5f7cb70580cd1a241.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-byte_stream_construction-Debug-43bdc240513bdf130302.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-byte_stream_many_writes-Debug-37c92471b9ea50770397.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-byte_stream_one_write-Debug-3bbc812bf894b59f2931.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-byte_stream_two_writes-Debug-0f43c342c10b815666ba.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-fsm_stream_reassembler_cap-Debug-d2c45897d581a0eaf092.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-fsm_stream_reassembler_dup-Debug-d1ba92107b5c8b1da1d4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-fsm_stream_reassembler_holes-Debug-3f344d8898b4de5541e0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-fsm_stream_reassembler_many-Debug-cb22e5029d7f036eb443.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-fsm_stream_reassembler_overlapping-Debug-133dc6a707436aa09fa3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-fsm_stream_reassembler_seq-Debug-a88cdd2dab37dedd1320.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-fsm_stream_reassembler_single-Debug-20828b3b392c380a391f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-fsm_stream_reassembler_win-Debug-5cc01db0c122dc83bc69.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-sponge-Debug-09d82d9b37c44cce8af3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-tidy-Debug-8414027b1399b59a5e54.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-tidy_verbose-Debug-24ac9582fe33f694278c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CTestTestfile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CTestTestfile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libsponge/stream_reassembler.cc" beforeDir="false" afterPath="$PROJECT_DIR$/libsponge/stream_reassembler.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/compile_commands.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/compile_commands.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libsponge/stream_reassembler.hh" beforeDir="false" afterPath="$PROJECT_DIR$/libsponge/stream_reassembler.hh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libsponge/tcp_receiver.cc" beforeDir="false" afterPath="$PROJECT_DIR$/libsponge/tcp_receiver.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libsponge/tcp_receiver.hh" beforeDir="false" afterPath="$PROJECT_DIR$/libsponge/tcp_receiver.hh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libsponge/wrapping_integers.cc" beforeDir="false" afterPath="$PROJECT_DIR$/libsponge/wrapping_integers.cc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -241,6 +287,11 @@
   }
 }</component>
   <component name="RunManager" selected="CMake Application.check_lab0">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="address_dt" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="address_dt" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Sponge" RUN_TARGET_NAME="address_dt">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -366,6 +417,36 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="recv_close" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="recv_close" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Sponge" RUN_TARGET_NAME="recv_close">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="recv_connect" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="recv_connect" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Sponge" RUN_TARGET_NAME="recv_connect">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="recv_reorder" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="recv_reorder" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Sponge" RUN_TARGET_NAME="recv_reorder">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="recv_special" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="recv_special" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Sponge" RUN_TARGET_NAME="recv_special">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="recv_transmit" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="recv_transmit" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Sponge" RUN_TARGET_NAME="recv_transmit">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="recv_window" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="recv_window" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Sponge" RUN_TARGET_NAME="recv_window">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="socket_dt" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="socket_dt" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Sponge" RUN_TARGET_NAME="socket_dt">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -377,6 +458,11 @@
       </method>
     </configuration>
     <configuration name="spongechecks" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="spongechecks" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tcp_parser" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tcp_parser" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Sponge" RUN_TARGET_NAME="tcp_parser">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -451,6 +537,16 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="tidy_libsponge__tcp_receiver.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_libsponge__tcp_receiver.cc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidy_libsponge__wrapping_integers.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_libsponge__wrapping_integers.cc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="tidy_quiet_apps__webget.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_quiet_apps__webget.cc" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -512,6 +608,31 @@
       </method>
     </configuration>
     <configuration name="tidy_quiet_libsponge__stream_reassembler.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_quiet_libsponge__stream_reassembler.cc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidy_quiet_libsponge__tcp_receiver.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_quiet_libsponge__tcp_receiver.cc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidy_quiet_libsponge__wrapping_integers.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_quiet_libsponge__wrapping_integers.cc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidy_quiet_tcp_helpers__tcp_header.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_quiet_tcp_helpers__tcp_header.cc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidy_quiet_tcp_helpers__tcp_segment.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_quiet_tcp_helpers__tcp_segment.cc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidy_quiet_tcp_helpers__tcp_state.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_quiet_tcp_helpers__tcp_state.cc" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -822,6 +943,21 @@
       </method>
     </configuration>
     <configuration name="tidy_quiet_util__util.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_quiet_util__util.cc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidy_tcp_helpers__tcp_header.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_tcp_helpers__tcp_header.cc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidy_tcp_helpers__tcp_segment.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_tcp_helpers__tcp_segment.cc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidy_tcp_helpers__tcp_state.cc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="tidy_tcp_helpers__tcp_state.cc" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -1146,6 +1282,26 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="wrapping_integers_cmp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="wrapping_integers_cmp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Sponge" RUN_TARGET_NAME="wrapping_integers_cmp">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="wrapping_integers_roundtrip" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="wrapping_integers_roundtrip" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Sponge" RUN_TARGET_NAME="wrapping_integers_roundtrip">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="wrapping_integers_unwrap" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="wrapping_integers_unwrap" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Sponge" RUN_TARGET_NAME="wrapping_integers_unwrap">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="wrapping_integers_wrap" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sponge" TARGET_NAME="wrapping_integers_wrap" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Sponge" RUN_TARGET_NAME="wrapping_integers_wrap">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="All CTest" type="CTestRunConfiguration" factoryName="CTestRun" PROGRAM_PARAMS="--extra-verbose" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$CMakeCurrentLocalGenerationDir$" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_PATH="$CTestCurrentExecutableName$" EXPLICIT_BUILD_TARGET_NAME="all" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -1177,6 +1333,8 @@
       <item itemvalue="CMake Application.tidy_doctests__socket_example_3.cc" />
       <item itemvalue="CMake Application.tidy_libsponge__byte_stream.cc" />
       <item itemvalue="CMake Application.tidy_libsponge__stream_reassembler.cc" />
+      <item itemvalue="CMake Application.tidy_libsponge__tcp_receiver.cc" />
+      <item itemvalue="CMake Application.tidy_libsponge__wrapping_integers.cc" />
       <item itemvalue="CMake Application.tidy_quiet_apps__webget.cc" />
       <item itemvalue="CMake Application.tidy_quiet_doctests__address_dt.cc" />
       <item itemvalue="CMake Application.tidy_quiet_doctests__address_example_1.cc" />
@@ -1190,6 +1348,11 @@
       <item itemvalue="CMake Application.tidy_quiet_doctests__socket_example_3.cc" />
       <item itemvalue="CMake Application.tidy_quiet_libsponge__byte_stream.cc" />
       <item itemvalue="CMake Application.tidy_quiet_libsponge__stream_reassembler.cc" />
+      <item itemvalue="CMake Application.tidy_quiet_libsponge__tcp_receiver.cc" />
+      <item itemvalue="CMake Application.tidy_quiet_libsponge__wrapping_integers.cc" />
+      <item itemvalue="CMake Application.tidy_quiet_tcp_helpers__tcp_header.cc" />
+      <item itemvalue="CMake Application.tidy_quiet_tcp_helpers__tcp_segment.cc" />
+      <item itemvalue="CMake Application.tidy_quiet_tcp_helpers__tcp_state.cc" />
       <item itemvalue="CMake Application.tidy_quiet_tests__byte_stream_capacity.cc" />
       <item itemvalue="CMake Application.tidy_quiet_tests__byte_stream_construction.cc" />
       <item itemvalue="CMake Application.tidy_quiet_tests__byte_stream_many_writes.cc" />
@@ -1252,6 +1415,9 @@
       <item itemvalue="CMake Application.tidy_quiet_util__socket.cc" />
       <item itemvalue="CMake Application.tidy_quiet_util__tun.cc" />
       <item itemvalue="CMake Application.tidy_quiet_util__util.cc" />
+      <item itemvalue="CMake Application.tidy_tcp_helpers__tcp_header.cc" />
+      <item itemvalue="CMake Application.tidy_tcp_helpers__tcp_segment.cc" />
+      <item itemvalue="CMake Application.tidy_tcp_helpers__tcp_state.cc" />
       <item itemvalue="CMake Application.tidy_tests__byte_stream_capacity.cc" />
       <item itemvalue="CMake Application.tidy_tests__byte_stream_construction.cc" />
       <item itemvalue="CMake Application.tidy_tests__byte_stream_many_writes.cc" />
@@ -1333,7 +1499,18 @@
       <item itemvalue="CMake Application.fsm_stream_reassembler_seq" />
       <item itemvalue="CMake Application.fsm_stream_reassembler_single" />
       <item itemvalue="CMake Application.fsm_stream_reassembler_win" />
+      <item itemvalue="CMake Application.recv_close" />
+      <item itemvalue="CMake Application.recv_connect" />
+      <item itemvalue="CMake Application.recv_reorder" />
+      <item itemvalue="CMake Application.recv_special" />
+      <item itemvalue="CMake Application.recv_transmit" />
+      <item itemvalue="CMake Application.recv_window" />
       <item itemvalue="CMake Application.spongechecks" />
+      <item itemvalue="CMake Application.tcp_parser" />
+      <item itemvalue="CMake Application.wrapping_integers_cmp" />
+      <item itemvalue="CMake Application.wrapping_integers_roundtrip" />
+      <item itemvalue="CMake Application.wrapping_integers_unwrap" />
+      <item itemvalue="CMake Application.wrapping_integers_wrap" />
       <item itemvalue="CTest Application.All CTest" />
     </list>
   </component>
@@ -1355,7 +1532,7 @@
       <workItem from="1665613534464" duration="6813000" />
       <workItem from="1665651058554" duration="3850000" />
       <workItem from="1665662645161" duration="2519000" />
-      <workItem from="1665672367646" duration="3158000" />
+      <workItem from="1665672367646" duration="8906000" />
     </task>
     <servers />
   </component>
