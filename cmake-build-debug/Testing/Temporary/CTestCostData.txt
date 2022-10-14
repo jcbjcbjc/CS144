@@ -7,7 +7,43 @@ t_webget 1 1.09466
 t_address_dt 0 0
 t_parser_dt 0 0
 t_socket_dt 0 0
+t_wrapping_ints_cmp 0 0
+t_wrapping_ints_unwrap 0 0
+t_wrapping_ints_wrap 0 0
+t_wrapping_ints_roundtrip 0 0
+t_recv_connect 0 0
+t_recv_transmit 0 0
+t_recv_window 0 0
+t_recv_reorder 0 0
+t_recv_close 0 0
+t_recv_special 0 0
+t_strm_reassem_single 0 0
+t_strm_reassem_seq 0 0
+t_strm_reassem_dup 0 0
+t_strm_reassem_holes 0 0
+t_strm_reassem_many 0 0
+t_strm_reassem_overlapping 0 0
+t_strm_reassem_win 0 0
+t_strm_reassem_cap 0 0
 ---
+t_wrapping_ints_cmp
+t_wrapping_ints_unwrap
+t_wrapping_ints_wrap
+t_wrapping_ints_roundtrip
+t_recv_connect
+t_recv_transmit
+t_recv_window
+t_recv_reorder
+t_recv_close
+t_recv_special
+t_strm_reassem_single
+t_strm_reassem_seq
+t_strm_reassem_dup
+t_strm_reassem_holes
+t_strm_reassem_many
+t_strm_reassem_overlapping
+t_strm_reassem_win
+t_strm_reassem_cap
 t_byte_stream_construction
 t_byte_stream_one_write
 t_byte_stream_two_writes
