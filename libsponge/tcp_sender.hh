@@ -15,6 +15,41 @@
 //! segments, keeps track of which segments are still in-flight,
 //! maintains the Retransmission Timer, and retransmits in-flight
 //! segments if the retransmission timer expires.
+class RetransmissionTimer{
+  public:
+    RetransmissionTimer(const uint16_t retx_timeout):
+        _initial_RTO(retx_timeout), _RTO(retx_timeout), _TO(0), _open(1) {}
+
+    unsigned int _initial_RTO;
+    unsigned int _RTO;
+    unsigned int _TO;
+    bool _open;
+    void Start(){
+        _TO=0;
+        _open=true;
+    }
+    void Close(){
+        _TO=0;
+        _open=false;
+    }
+
+    bool tick(size_t ms_since_last_tick){
+        if (!_open)
+            return 0;
+        if(ms_since_last_tick+_TO>_RTO){
+            ms_since_last_tick -= (_RTO - _TO);
+            _TO=_RTO;
+        }else{
+            _TO+=ms_since_last_tick;
+        }
+        if (_TO >= _RTO) {
+            _TO = 0;
+            return 1;  // the retransmission timer has expired.
+        }
+    }
+};
+
+
 class TCPSender {
   private:
     //! our initial sequence number, the number for our SYN.
@@ -22,6 +57,8 @@ class TCPSender {
 
     //! outbound queue of segments that the TCPSender wants sent
     std::queue<TCPSegment> _segments_out{};
+
+    RetransmissionTimer _timer;
 
     //! retransmission timer for the connection
     unsigned int _initial_retransmission_timeout;
@@ -32,6 +69,8 @@ class TCPSender {
     //! the (absolute) sequence number for the next byte to be sent
     uint64_t _next_seqno{0};
 
+    WrappingInt32 currentAckno_;
+    WrappingInt32 WindowSize_;
   public:
     //! Initialize a TCPSender
     TCPSender(const size_t capacity = TCPConfig::DEFAULT_CAPACITY,
