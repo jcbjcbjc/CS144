@@ -6,8 +6,10 @@
 #include "tcp_segment.hh"
 #include "wrapping_integers.hh"
 
+#include <cassert>
 #include <functional>
 #include <queue>
+#include <set>
 
 //! \brief The "sender" part of a TCP implementation.
 
@@ -15,40 +17,57 @@
 //! segments, keeps track of which segments are still in-flight,
 //! maintains the Retransmission Timer, and retransmits in-flight
 //! segments if the retransmission timer expires.
-class RetransmissionTimer{
+class TCPRetransmissionTimer {
   public:
-    RetransmissionTimer(const uint16_t retx_timeout):
-        _initial_RTO(retx_timeout), _RTO(retx_timeout), _TO(0), _open(1) {}
-
+    //! retransmission timer for the connection
     unsigned int _initial_RTO;
+
+    //! retransmission timeout
     unsigned int _RTO;
+
+    //! timeout
     unsigned int _TO;
+
+    //! state of the timer, 1:open, 0:close
     bool _open;
-    void Start(){
-        _TO=0;
-        _open=true;
-    }
-    void Close(){
-        _TO=0;
-        _open=false;
+
+    //! Initialize a TCP retransmission timer
+    TCPRetransmissionTimer(const uint16_t retx_timeout)
+        : _initial_RTO(retx_timeout), _RTO(retx_timeout), _TO(0), _open(1) {}
+
+    //! state of the timer
+    bool open() { return _open; }
+
+    //! start the timer
+    void start() {
+        _open = 1;
+        _TO = 0;
     }
 
-    bool tick(size_t ms_since_last_tick){
-        if (!_open)
+    //! close the timer
+    void close() {
+        _open = 0;
+        _TO = 0;
+    }
+    //! tick
+    bool tick(size_t &ms_since_last_tick) {
+        if (!open())
             return 0;
-        if(ms_since_last_tick+_TO>_RTO){
+        if(ms_since_last_tick > _RTO - _TO){
             ms_since_last_tick -= (_RTO - _TO);
             _TO=_RTO;
-        }else{
-            _TO+=ms_since_last_tick;
+        }
+        else{
+            _TO += ms_since_last_tick;
+            ms_since_last_tick = 0;
         }
         if (_TO >= _RTO) {
             _TO = 0;
             return 1;  // the retransmission timer has expired.
         }
+        return 0;
     }
 };
-
 
 class TCPSender {
   private:
@@ -56,21 +75,39 @@ class TCPSender {
     WrappingInt32 _isn;
 
     //! outbound queue of segments that the TCPSender wants sent
-    std::queue<TCPSegment> _segments_out{};
+    std::queue<TCPSegment> _segments_out;
 
-    RetransmissionTimer _timer;
+    //! outstanding segments that the TCPSender may resend
+    std::queue<TCPSegment> _segments_outstanding;
 
-    //! retransmission timer for the connection
-    unsigned int _initial_retransmission_timeout;
+    //! bytes in flight
+    uint64_t _nBytes_inflight;
+
+    //！ last ackno
+    uint64_t _recv_ackno;
+
+    //! TCP retransmission timer
+    TCPRetransmissionTimer _timer;
+
+    //! notify the window size
+    uint16_t _window_size;
+
+    //! consecutive retransmissions
+    unsigned int _consecutive_retransmissions;
 
     //! outgoing stream of bytes that have not yet been sent
     ByteStream _stream;
 
     //! the (absolute) sequence number for the next byte to be sent
-    uint64_t _next_seqno{0};
+    uint64_t _next_seqno;
 
-    WrappingInt32 currentAckno_;
-    WrappingInt32 WindowSize_;
+    //! the flag of SYN sent
+    bool _syn_sent;
+
+    //! the flag of FIN sent
+    bool _fin_sent;
+
+
   public:
     //! Initialize a TCPSender
     TCPSender(const size_t capacity = TCPConfig::DEFAULT_CAPACITY,
@@ -91,6 +128,9 @@ class TCPSender {
 
     //! \brief Generate an empty-payload segment (useful for creating empty ACK segments)
     void send_empty_segment();
+
+    //! \brief Generate an non-empty segment
+    void send_non_empty_segment(TCPSegment &seg);
 
     //! \brief create and send segments to fill as much of the window as possible
     void fill_window();
@@ -126,6 +166,10 @@ class TCPSender {
     //! \brief relative seqno for the next byte to be sent
     WrappingInt32 next_seqno() const { return wrap(_next_seqno, _isn); }
     //!@}
+
+    bool syn_sent() const {return _syn_sent;}
+
+    bool fin_sent() const {return _fin_sent;}
 };
 
 #endif  // SPONGE_LIBSPONGE_TCP_SENDER_HH
